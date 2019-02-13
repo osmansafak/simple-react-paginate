@@ -1,19 +1,19 @@
-# react-paginate-component
+# simple-react-paginate
 
 Simple pagination component for ReactJS
 
 ## Installation
 
-Install `react-paginate-component` with [npm](https://www.npmjs.com/):
+Install `simple-react-paginate` with [npm](https://www.npmjs.com/):
 
 ```
-$ npm install react-paginate-component --save
+$ npm install simple-react-paginate --save
 ```
 
 For [CommonJS](http://wiki.commonjs.org/wiki/CommonJS) users:
 
 ```javascript
-import ReactPaginateComponent from "react-paginate-component";
+import SimpleReactPaginate from "simple-react-paginate";
 ```
 
 ## Props

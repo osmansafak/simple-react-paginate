@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import cx from "classnames";
 
-function ReactPaginateComponent(props) {
+function SimpleReactPaginate(props) {
   const {
     current,
     total,
@@ -116,7 +116,7 @@ function ReactPaginateComponent(props) {
   );
 }
 
-ReactPaginateComponent.propTypes = {
+SimpleReactPaginate.propTypes = {
   current: PropTypes.number,
   total: PropTypes.number,
   pageRange: PropTypes.number,
@@ -137,7 +137,7 @@ ReactPaginateComponent.propTypes = {
   disabledClass: PropTypes.string
 };
 
-ReactPaginateComponent.defaultProps = {
+SimpleReactPaginate.defaultProps = {
   current: 1,
   total: 1,
   pageRange: 5,
@@ -159,4 +159,4 @@ ReactPaginateComponent.defaultProps = {
   onChange: () => {}
 };
 
-export default ReactPaginateComponent;
+export default SimpleReactPaginate;

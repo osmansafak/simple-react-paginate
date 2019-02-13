@@ -1,5 +1,5 @@
 {
-  "name": "react-paginate-component",
+  "name": "simple-react-paginate",
   "version": "1.0.0",
   "description": "Simple pagination component for ReactJS",
   "main": "dist/index.js",
@@ -14,11 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/osmansafak/react-paginate-component.git"
+    "url": "git+https://github.com/osmansafak/simple-react-paginate.git"
   },
-  "homepage": "https://github.com/osmansafak/react-paginate-component#readme",
+  "homepage": "https://github.com/osmansafak/simple-react-paginate#readme",
   "bugs": {
-    "url": "https://github.com/osmansafak/react-paginate-component/issues"
+    "url": "https://github.com/osmansafak/simple-react-paginate/issues"
   },
   "keywords": [
     "paginate",

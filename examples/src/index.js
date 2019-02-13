@@ -1,13 +1,13 @@
 import React from "react";
 import { render } from "react-dom";
-import ReactPaginateComponent from "../../src";
+import SimpleReactPaginate from "../../src";
 import "../src/style.css";
 
 const App = () => (
   <div className="content">
-    <h1>React Paginate Component</h1>
+    <h1>Simple React Paginate</h1>
     <div className="list">
-      <ReactPaginateComponent
+      <SimpleReactPaginate
         current={10}
         total={20}
         pageRange={5}
@@ -18,7 +18,7 @@ const App = () => (
       />
     </div>
     <div className="list">
-      <ReactPaginateComponent
+      <SimpleReactPaginate
         current={10}
         total={20}
         pageRange={7}
@@ -31,7 +31,7 @@ const App = () => (
       />
     </div>
     <div className="list">
-      <ReactPaginateComponent
+      <SimpleReactPaginate
         current={10}
         total={20}
         pageRange={5}
@@ -43,7 +43,7 @@ const App = () => (
       />
     </div>
     <a
-      href="https://www.github.com/osmansafak/react-paginate-component"
+      href="https://www.github.com/osmansafak/simple-react-paginate"
       target="_blank"
       className="github"
       aria-label="View source on GitHub"
