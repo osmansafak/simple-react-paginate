@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+#paginate ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#paginate li {
+  display: inline-block;
+  margin: 0 10px;
+}
+#paginate .content {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#paginate .content .list {
+  margin-top: 50px;
+}
+
+#paginate .content .github {
+  margin-top: 50px;
+}
+
+/* Paginate style-1 */
+.style-1,
+.style-1 a {
+  color: #999999;
+  text-decoration: none;
+}
+
+.style-1 .paginate-disabled a {
+  color: #ececec;
+}
+
+.style-1 .paginate-active-link {
+  color: #000000;
+}
+
+/* Paginate style-2 */
+
+.style-2 li a {
+  display: block;
+  color: white;
+  background-color: crimson;
+  text-decoration: none;
+  padding: 6px 8px;
+  border: 1px solid crimson;
+  border-radius: 4px;
+}
+
+.style-2 li span {
+  color: crimson;
+  text-decoration: none;
+  padding: 6px 8px;
+}
+
+.style-2 .paginate-disabled a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.style-2 .paginate-active-link {
+  color: crimson;
+  background-color: white;
+}
+
+/* Paginate style-3 */
+.style-3,
+.style-3 a {
+  color: #ff8900;
+  text-decoration: none;
+}
+
+.style-3 .paginate-disabled a {
+  color: #999999;
+}
+
+.style-3 .paginate-active-link {
+  color: #4183c4;
+}
